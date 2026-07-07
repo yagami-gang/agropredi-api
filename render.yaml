@@ -3,8 +3,8 @@ services:
     name: agropredi-api
     runtime: python
     region: frankfurt
-    buildCommand: pip install -r requirements.txt
+    buildCommand: pip install --extra-index-url https://download.pytorch.org/whl/cpu -r requirements.txt
     startCommand: gunicorn flask_api:app -b 0.0.0.0:$PORT --timeout 120
     envVars:
       - key: PYTHON_VERSION
-        value: 3.11.11
+        value: "3.11"
