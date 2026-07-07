@@ -1,0 +1,10 @@
+{
+  "classes": [
+    "Pepper__bell___Bacterial_spot",
+    "Pepper__bell___healthy"
+  ],
+  "class_to_idx": {
+    "Pepper__bell___Bacterial_spot": 0,
+    "Pepper__bell___healthy": 1
+  }
+}

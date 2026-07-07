@@ -1,0 +1,10 @@
+flask==3.0.0
+gunicorn==23.0.0
+--index-url https://download.pytorch.org/whl/cpu
+torch==2.1.2
+torchvision==0.16.2
+--index-url https://pypi.org/simple
+pillow==10.1.0
+numpy==1.24.3
+python-dotenv==1.0.0
+requests==2.31.0
